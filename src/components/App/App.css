@@ -1,0 +1,31 @@
+.app {
+	display: flex;
+	height: 100%;
+}
+
+.content {
+	flex-grow: 1;
+	height: 100vh;
+	overflow: auto;
+	position: relative;
+	padding-top: 65px;
+	box-sizing: border-box;
+}
+
+.container {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	box-sizing: border-box;
+	height: 100%;
+	overflow: auto;
+}
+
+.app-bar {
+	z-index: 1 !important;
+	padding: 15px 20px;
+}
+
+.title {
+	flex-grow: 1;
+	text-transform: capitalize;
+}

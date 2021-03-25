@@ -1,0 +1,36 @@
+.calendar {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.calendar__header {
+	display: flex;
+	padding: 10px 0 30px;
+	align-items: center;
+}
+
+.calendar__pagination {
+	cursor: pointer;
+}
+
+.calendar__content {
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+	font-size: 14px;
+}
+
+.calendar__week-days {
+	display: flex;
+	width: 100%;
+	background: rgba(0,0,0,.1);
+	color: rgba(0,0,0,.6);
+}
+
+.calendar__week-days > div {
+	flex: 0 0 14.28%;
+	box-sizing: border-box;
+	padding: 10px;
+}
